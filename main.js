@@ -34,6 +34,7 @@ function gotPoses(results){
 }
 
 function draw(){
+    textSize(60);
     document.getElementById("square").innerHTML="Font size of word are = "+Difference+ " px";
     text('Riddhi',NoseX,NoseY);
     textSize(Difference);
